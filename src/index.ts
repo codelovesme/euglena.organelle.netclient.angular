@@ -18,7 +18,7 @@ let this_: Organelle = null;
 export class Organelle extends euglena_template.being.alive.organelle.NetClientOrganelle {
     private servers: any;
     private triedToConnect: euglena.sys.type.Map<string, boolean>;
-    public sapContent: euglena_template.being.alive.particle.NetClientOrganelleSapContent;
+    private sapContent: euglena_template.being.alive.particle.NetClientOrganelleSapContent;
     private http: Http;
     constructor() {
         super(euglena_template.being.alive.constants.organelles.NetClientOrganelle);
