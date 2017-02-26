@@ -5,7 +5,7 @@ import Particle = euglena.being.Particle;
 export declare class Organelle extends euglena_template.being.alive.organelle.NetClientOrganelle {
     private servers;
     private triedToConnect;
-    private sapContent;
+    sapContent: euglena_template.being.alive.particle.NetClientOrganelleSapContent;
     private http;
     constructor();
     protected bindActions(addAction: (particleName: string, action: (particle: Particle, callback: euglena.being.interaction.Callback) => void) => void): void;
